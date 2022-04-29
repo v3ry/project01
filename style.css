@@ -35,6 +35,8 @@ header img:last-child{
     max-height: 200px;
 }
 header{
+    position:relative;
+    top: 0;
     background-color: black;
     display: flex;
     align-items: center;
@@ -46,6 +48,8 @@ header{
     margin-left: 0;
     min-height: 100px;
     max-height: 200px;
+    
+
     
 }
 
@@ -71,8 +75,22 @@ header ul li{
     padding-right: 2rem;
     
 }
-p, h1,h2{
+
+main{
+    margin: 4rem;
+
+}
+main h1,main h2{
     color: aliceblue;
+    margin-top:2rem;
+    margin-bottom: 1rem;
+}
+main p{
+    background-color: bisque;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: black;
+    
 }
 
 footer{
@@ -85,9 +103,15 @@ text-align: center;
 
 vertical-align: middle;
 background-color: aliceblue;
+
 color: brown;
 }
 
 footer p{
+    border-top: 3px solid brown;
+    border-radius: 10px;
+    width: 200px;
+    margin: auto;
+    padding-top: 1rem;
     color: brown;
 }
