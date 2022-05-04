@@ -127,7 +127,8 @@ footer p{
         margin-top: 220px;
     }
     footer{
-        display: inline-flex;
+        display: flex;
+        align-items: center;
         height: 50px;
     }
     footer img{
