@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -13,8 +14,6 @@ body{
     */
     
     background-color: black;
-
-    
 }
 img{
     
@@ -23,7 +22,7 @@ img{
     
     max-width: 25%;
     
-    max-height: 200px;
+    max-height: 130px;
     margin: 0;
     padding: 0;
 }
@@ -32,7 +31,7 @@ header img:first-child{
 }
 header img:last-child{
     border-left: 3px solid white;
-    max-height: 200px;
+    
 }
 header{
     position:fixed;
@@ -48,7 +47,7 @@ header{
     padding-right: 0;
     
     min-height: 100px;
-    max-height: 200px;
+    max-height: 130px;
     width: 100%;
     
 
@@ -108,7 +107,7 @@ bottom:0;
 width: 100%;
 align-items: center;
 text-align: center;
-
+max-height: 100px;
 vertical-align: middle;
 background-color: aliceblue;
 
@@ -127,5 +126,18 @@ footer p{
     main{
         margin: 20%;
         margin-top: 220px;
+    }
+    footer{
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 90px;
+    }
+    footer img{
+        height: 50px;
+    }
+    footer p{
+        border-top: 0px;
+        margin: 10px;
     }
 }
