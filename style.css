@@ -90,7 +90,19 @@ main p{
     color: black;
     
 }
-
+main .succesClass{
+    background-color: bisque;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem 0.2rem;
+    color: black;
+}
+.succesClass h2{
+    color: red;
+}
+.spacer{
+    margin: 7rem;
+}
 footer{
 border-top: 3px solid brown;
 position:fixed;
