@@ -90,6 +90,13 @@ main p{
     color: black;
     
 }
+main ul{
+    background-color: bisque;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: black;
+    
+}
 main .succesClass{
     background-color: bisque;
     border-radius: 1rem;
